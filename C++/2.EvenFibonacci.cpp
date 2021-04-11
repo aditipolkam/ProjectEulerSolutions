@@ -1,4 +1,5 @@
 #include<iostream>
+using namespace std;
 int main()
 {
 	int sum = 0,n1 = 0,n2 = 1,n3 = 2, limit = 4000000;
