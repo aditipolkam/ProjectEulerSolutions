@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 
 int checkPalindrome(int num)
 {
@@ -15,7 +16,7 @@ int checkPalindrome(int num)
 		return -1;
 }
 	
-void main()
+int main()
 {
 	int i,j,product = 0,pal = 0,m1 = 0,m2 = 0;
 	for(i=999;i>=100;i--)
@@ -34,7 +35,8 @@ void main()
 			}
 		}
 	}
-	printf(" %d is the largest palindrome product of two 3 digit numbers i.e. %d * %d",pal,m1,m2);
+	cout<<pal<<" is the largest palindrome product of two 3 digit numbers i.e. "<< m1 << "*" << m2;
+	return 0;
 } 
 
 

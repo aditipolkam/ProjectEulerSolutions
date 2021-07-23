@@ -1,5 +1,6 @@
-#include<stdio.h>
-void main()
+#include<iostream>
+using namespace std;
+int main()
 {
 	int x,sum = 0;
 	for(x=1;x<1000;x++)
@@ -9,5 +10,6 @@ void main()
 		else if(x%5 == 0)
 			sum+=x;
 	}
-	printf("%d is the sum.",sum);
+	cout<<sum<<" is the sum.";
+	return 0;
 }

@@ -1,6 +1,7 @@
-#include<stdio.h>
+#include<iostream>
 #include<math.h>
-void main()
+using namespace std;
+int main()
 {
 	int k = 20, i = 0, check = 0, n = 1;
 	int limit = sqrt(k);
@@ -20,5 +21,6 @@ void main()
 		n *=  pow(p[i],a[i]);
 		i = i + 1;
 	}
-	printf("The smallest number to be divisible by 1 to 20 is %d ",n);
+	cout<<"The smallest number to be divisible by 1 to 20 is "<<n;
+	return 0;
 }

@@ -1,4 +1,5 @@
-#include<stdio.h>
+#include<iostream>
+using namespace std;
 int isPrime(int num){
     for(int i=2; i<=num/2; i++){
         if(num%i==0)
@@ -6,7 +7,7 @@ int isPrime(int num){
     }
     return 1;
 }
-void main()
+int main()
 {
     int cnt = 0, num = 2, prime = 2;
     while(cnt!=10001){
@@ -16,5 +17,6 @@ void main()
         }
         num++;    
     }
-    printf("%d is the 10001st prime number.",prime);
+    cout<<prime<<" is the 10001st prime number.";
+    return 0;
 }
