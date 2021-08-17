@@ -9,8 +9,8 @@ int isPrime(int num){
 }
 int main()
 {
-    double sum = 2;
-    for(double i=3;i<2000000;i=i+2){
+    long sum = 2;
+    for(long i=3;i<2000000;i=i+2){
         if(isPrime(i))
             sum+=i;
     }
